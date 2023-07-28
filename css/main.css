@@ -11,11 +11,65 @@ main .found_btn li {
 
 main .carousel {
   width: 100%;
-  height: 600px;
-  background-image: url('../assets/images/빽다방_홈페이지_main_디아블로에너지드링크-1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%;
+  position: relative;
   overflow: hidden;
+}
+
+main .carousel .carousel_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  transition: all 1s ease-in-out;
+}
+
+main .carousel .carousel_container li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-shrink: 0;
+}
+
+main .carousel .carousel_container li img {
+  width: 100%;
+  height: 100%;
+}
+
+main .carousel .carousel_btn {
+  width: 100%;
+  position: absolute;
+
+  bottom: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main .carousel .carousel_btn .prev_btn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+main .carousel .carousel_btn .prev_btn img {
+  width: 100%;
+  height: 100%;
+  filter: invert(63%) sepia(55%) saturate(2520%) hue-rotate(220deg)
+    brightness(95%) contrast(87%);
+}
+
+main .carousel .carousel_btn .next_btn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+main .carousel .carousel_btn .next_btn img {
+  width: 100%;
+  height: 100%;
+  filter: invert(63%) sepia(55%) saturate(2520%) hue-rotate(220deg)
+    brightness(95%) contrast(87%);
 }
 
 .main_sec01 {

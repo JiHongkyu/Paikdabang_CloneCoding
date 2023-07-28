@@ -69,6 +69,27 @@ footer .container .in_footer .company_info {
   border: 1px solid #262626;
   text-align: left;
   cursor: pointer;
+  position: relative;
+}
+
+.in_footer .right_box .family_site .family_menu {
+  border: 1px solid #262626;
+  padding: 0 5px;
+  width: 175px;
+  position: absolute;
+  bottom: 28px;
+  left: -1px;
+  background: #fff;
+  display: none;
+}
+
+.in_footer .right_box .family_site .family_menu p {
+  cursor: pointer;
+  padding: 7px 0;
+}
+
+.in_footer .right_box .family_site .family_menu p:hover {
+  font-weight: bold;
 }
 
 footer .to_top {
@@ -81,4 +102,8 @@ footer .to_top {
   display: inline-block;
   z-index: 999;
   cursor: pointer;
+}
+
+.in_footer .right_box .family_site .family_menu.active {
+  display: block;
 }
