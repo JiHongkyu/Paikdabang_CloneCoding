@@ -20,7 +20,7 @@ header {
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 10;
 }
 
 header .container {
@@ -37,7 +37,7 @@ header .container .top_bar {
 
 .top_bar li {
   display: inline-block;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 300;
   line-height: 12px;
 }
@@ -85,7 +85,7 @@ header .container .top_bar {
 
 .nav_bar .nav_bar_item a {
   color: black;
-  font-size: 15px;
+  font-size: 0.94rem;
   font-weight: 400;
 }
 
@@ -129,7 +129,7 @@ header .container .top_bar {
 }
 
 .sub_menu .sub_menu_item {
-  font-size: 15px;
+  font-size: 0.94rem;
   line-height: 1.8;
   font-weight: 300;
 }

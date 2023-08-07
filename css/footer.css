@@ -83,12 +83,16 @@ footer .container .in_footer .company_info {
   display: none;
 }
 
-.in_footer .right_box .family_site .family_menu p {
+.in_footer .right_box .family_site .family_menu.active {
+  display: block;
+}
+
+.in_footer .right_box .family_site .family_menu li {
   cursor: pointer;
   padding: 7px 0;
 }
 
-.in_footer .right_box .family_site .family_menu p:hover {
+.in_footer .right_box .family_site .family_menu li:hover {
   font-weight: bold;
 }
 
@@ -99,11 +103,6 @@ footer .to_top {
   width: 60px;
   height: 60px;
   background: url('../assets/images/off.png') no-repeat center;
-  display: inline-block;
-  z-index: 999;
+  z-index: 10;
   cursor: pointer;
-}
-
-.in_footer .right_box .family_site .family_menu.active {
-  display: block;
 }
